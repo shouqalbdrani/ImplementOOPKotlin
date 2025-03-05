@@ -6,7 +6,7 @@ enum class DepartmentType(val maxCredits: Int) {
     PHYSICS(20),
     ENGINEERING(20);
 
-    // Method inside the enum class
+    
     fun canRegister(currentCredits: Int): Boolean {
         return currentCredits <= maxCredits
     }
