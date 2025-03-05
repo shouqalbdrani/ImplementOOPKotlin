@@ -10,7 +10,7 @@ Student class which inherits from Person with name and age and has additional at
 Course class is a data class with the following properties: courseName, courseCode, credits. Use functions copy(), toString(), hashCode(), and equals() to explore functionality.
 
 copy -> Creates a new instance of the data class 
-toString -> return string 
+toString -> Return string 
 hashcode -> Generates a unique hash value for the object
 equals -> Compares two objects
 
