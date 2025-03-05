@@ -1,12 +1,15 @@
 # ImplementOOPKotlin
 
+This project implement OOP in Kotlin language 
 
-This project implement OOP in Kotlin
 Project Overview:
-Person class
-Student class which inhernt from Person 
-Course Class 
-Enum DepartmentType class 
+Person class with the following attributes: name and age. Also, have a method displayInfo() to print details.
+
+Student class which inherits from Person with name and age and has additional attributes studentId and grade. It overrides the function displayInfo(). Also, define an interface to check if the student is eligible.
+
+Course class is a data class with the following properties: courseName, courseCode, credits. Use functions copy(), toString(), hashCode(), and equals() to explore functionality.
+
+Enum DepartmentType class DepartmentType with the following values: COMPUTER_SCIENCE, MATHEMATICS, PHYSICS, ENGINEERING. Also, add a property maxCredits and create a method to indicate if a student can register or not.
 
 1- Go to file app/src/main/java/com/example/implementoopinkotlin
 2- Run the main.kt
