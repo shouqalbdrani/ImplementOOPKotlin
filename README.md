@@ -5,7 +5,7 @@ This project implement OOP in Kotlin language
 Project Overview:
 Person class with the following attributes: name and age. Also, have a method displayInfo() to print details.
 
-Student class which inherits from Person with name and age and has additional attributes studentId and grade. It overrides the function displayInfo(). Also, define an interface to check if the student is eligible.
+Student class which inherits from Person name and age and has additional attributes studentId and grade. It overrides the function displayInfo(). Also, define an interface to check if the student is eligible.
 
 Course class is a data class with the following properties: courseName, courseCode, credits. Use functions copy(), toString(), hashCode(), and equals() to explore functionality.
 
