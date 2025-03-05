@@ -9,6 +9,11 @@ Student class which inherits from Person with name and age and has additional at
 
 Course class is a data class with the following properties: courseName, courseCode, credits. Use functions copy(), toString(), hashCode(), and equals() to explore functionality.
 
+copy -> Creates a new instance of the data class 
+toString -> return string 
+hashcode -> Generates a unique hash value for the object
+equals -> Compares two objects
+
 Enum DepartmentType class DepartmentType with the following values: COMPUTER_SCIENCE, MATHEMATICS, PHYSICS, ENGINEERING. Also, add a property maxCredits and create a method to indicate if a student can register or not.
 
 1- Go to file app/src/main/java/com/example/implementoopinkotlin
